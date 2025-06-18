@@ -1,5 +1,7 @@
 name = "links"
-compatibility_date = "2023-05-18"
+main = ".svelte-kit/cloudflare/_worker.js"
+compatibility_date = "2025-01-01"
 
-[site]
-bucket = "./build/client"
+[assets]
+binding = "ASSETS"
+directory = ".svelte-kit/cloudflare"
